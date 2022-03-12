@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 /**
  * main - Prints numbers between 00 to 89.
@@ -35,5 +34,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
