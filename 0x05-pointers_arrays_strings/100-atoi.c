@@ -17,8 +17,8 @@ int is_numerical(unsigned int n)
  * Return: Return the num
  */
 
-	int _atoi(char *s)
-	{
+int _atoi(char *s)
+{
 	unsigned int number, i;
 	int sign;
 
@@ -40,8 +40,6 @@ int is_numerical(unsigned int n)
 			sign *= -1;
 		}
 
-
 	}
-
 	return (number *sign);
 }
