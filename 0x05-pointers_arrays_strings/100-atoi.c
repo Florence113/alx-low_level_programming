@@ -41,5 +41,8 @@ int _atoi(char *s)
 		}
 
 	}
-	return(number *sign);
+
+	return (number *sign);
+
+
 }
