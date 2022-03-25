@@ -7,11 +7,8 @@
  * Return: the pointer to dest.
  */
 
-
-
 char *string_toupper(char *str)
 {
-
 	int count = 0;
 
 	while (*(str + count) != '\0')
@@ -22,5 +19,4 @@ char *string_toupper(char *str)
 	}
 
 	return (str);
-
 }
